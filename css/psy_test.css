@@ -1,0 +1,200 @@
+
+@charset "utf-8";
+/* CSS Document */
+body{
+	position: relative;
+}
+/*头部导航栏*/
+nav:first-child{
+	margin-bottom:20px;
+	background:#0C6;
+}
+#guide{
+	color:#FFF;
+}
+#navbars .nav-link{
+	color:#FFF;
+}
+.nav-item a{
+	color:#000;
+	font-size:20px;
+}
+
+	
+/*中间*/
+.wrap{
+	height:auto;
+	margin:0 auto;
+}
+/*左边测评*/
+#artview-1{
+	display: block;
+	float: left;
+}
+#test-head #test-tit {
+    color: #a7a7a7;
+    font-size: 2.5em;
+    padding-bottom: .6em;
+    font-weight: bold;
+}
+#test-head #test-des {
+    display: block;
+    padding: 0 0 .4em 0;
+    font-size: 12px;
+    color: #a7a7a7;
+    border-bottom: solid 2px #e0e0e0;
+}
+.question{
+	display: block;
+    font-size: 1.6em;
+    width: 100%;
+    padding-top: 1em;
+    color: #000;
+    line-height: 1.5em;
+    padding-bottom: 1em;
+}
+/*进度条*/
+#progressTop {
+	width: 0%;
+}
+/*左边测评*/
+#question2{
+	display: none;
+}
+#question3{
+	display: none;
+}
+#question4{
+	display: none;
+}
+#scuess{
+	display: none;
+	margin: 0 auto;
+	text-align: center;
+}
+/*文章右侧专家推荐*/
+.wr {
+    float: right;
+    border: solid 1px #E8E8E8;
+    border-radius: 10px;
+    background: #f9f9f9;
+    overflow: hidden;
+}
+.h-tit-r{
+	font-size: 1.2em;
+	font-family: 华文行楷;
+	display: block;
+    width: 100%px;
+    height: 42px;
+    overflow: hidden;
+    clear: both;
+    margin-bottom: 10px;
+    background: #F9F9F9;
+}
+/*右侧专家列表*/
+#citydr-list{
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 15px;
+	padding-left: 0px;
+}
+#citydr-list li{
+	display: block;
+	border-bottom: dotted 1px #E5E5E5;
+	clear: both;
+	height: 100px;
+	margin-top: 5px;
+}
+#citydr-list li a {
+    display: block;
+    color: #737373;
+    width: 200px;
+    height: auto;
+    padding: 4px 0 4px 0;
+}
+#citydr-list li a img {
+    width: 50px;
+    height: 50px;
+    border: solid 1px #eee;
+    border-radius: 100px;
+    float: left;
+    overflow: hidden;
+    background: #fff;
+	display: block;
+}
+#citydr-list li a em {
+    float: left;
+    font-style: normal;
+    display: block;
+    overflow: hidden;
+    width: 75%;
+    height: auto;
+    font-size: 12px;
+    font-family: 宋体;
+    line-height: 20px;
+    color: #C6C6C6;
+}
+#citydr-list li a em b {
+    font-size: 17px;
+    font-style: normal;
+    color: #414141;
+    font-family: 微软雅黑;
+    font-weight: normal;
+    line-height: 30px;
+}
+/*右侧最热测评*/
+.hotcslist{
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	padding-left: 0px;
+}
+.hotcslist li{
+	display: block;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.hotcslist li a img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.hotcslist li a i{
+	position: relative;
+    display: block;
+    background: #000;
+    color: #fff;
+    font-size: .8em;
+    padding: .8em;
+    width: auto;
+    top: -3.1em;
+    font-style: normal;
+    text-align: right;
+	/*设置渐变颜色*/
+	background: linear-gradient(bottom,rgba(0,0,0,0.65098) 4%,rgba(0,0,0,0) 99%);
+    background: -o-linear-gradient(bottom,rgba(0,0,0,0.65098) 4%,rgba(0,0,0,0) 99%);
+    background: -ms-linear-gradient(bottom,rgba(0,0,0,0.65098) 4%,rgba(0,0,0,0) 99%);
+    background: -moz-linear-gradient(bottom,rgba(0,0,0,0.65098) 4%,rgba(0,0,0,0) 99%);
+    background: -webkit-linear-gradient(bottom,rgba(0,0,0,0.65098) 4%,rgba(0,0,0,0) 99%);
+	
+}
+
+
+ul{
+	list-style-type:none;
+}
+a {
+    color: #4C4C4C;
+    text-decoration: none;
+}
+/*底部*/
+footer {
+  background-color: #f5f5f5;
+  border-radius: 20px;
+}
+
+

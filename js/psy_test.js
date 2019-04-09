@@ -1,0 +1,88 @@
+// JavaScript Document
+//处理选项框一
+$("#question1").children("#choice1").click(function(){
+	$("#question1").find('input:radio').eq(0).prop('checked',true);
+});
+$("#question1").children('#choice2').click(function(){
+	$("#question1").find('input:radio').eq(1).prop('checked',true);
+});
+$("#question1").children('#choice3').click(function(){
+	$("#question1").find('input:radio').eq(2).prop('checked',true);
+});
+$("#question1").children('#choice4').click(function(){
+	$("#question1").find('input:radio').eq(3).prop('checked',true);
+});
+$("#question1").children("button").click(function(){
+	//改变进度条的值
+	$("#progressTop").attr("valuenow","25%");
+	$("#progressTop").css("width","25%");
+	$("#progressTop").text("25%");
+	//改变已做的选题数目
+	$("#des").text("1/4题");
+	//隐藏第一个选题框，显示第二个选题框
+	$("#question1").hide();
+	$("#question2").slideDown("slow");
+});
+//处理选项框二 
+$("#question2").children("#choice2-1").click(function(){
+	$("#question2").find('input:radio').eq(0).prop('checked',true);
+});
+$("#question2").children('#choice2-2').click(function(){
+	$("#question2").find('input:radio').eq(1).prop('checked',true);
+});
+$("#question2").children('#choice2-3').click(function(){
+	$("#question2").find('input:radio').eq(2).prop('checked',true);
+});
+$("#question2").children('#choice2-4').click(function(){
+	$("#question2").find('input:radio').eq(3).prop('checked',true);
+});
+$("#question2").children("button").click(function(){
+	$("#progressTop").attr("valuenow","50%");
+	$("#progressTop").css("width","50%");
+	$("#progressTop").text("50%");
+	$("#des").text("2/4题");
+	$("#question2").hide();
+	$("#question3").slideDown("slow");
+});
+//处理选项框一
+$("#question3").children("#choice3-1").click(function(){
+	$("#question3").find('input:radio').eq(0).prop('checked',true);
+});
+$("#question3").children('#choice3-2').click(function(){
+	$("#question3").find('input:radio').eq(1).prop('checked',true);
+});
+$("#question3").children('#choice3-3').click(function(){
+	$("#question3").find('input:radio').eq(2).prop('checked',true);
+});
+$("#question3").children('#choice3-4').click(function(){
+	$("#question3").find('input:radio').eq(3).prop('checked',true);
+});
+$("#question3").children("button").click(function(){
+	$("#progressTop").attr("valuenow","75%");
+	$("#progressTop").css("width","75%");
+	$("#progressTop").text("75%");
+	$("#des").text("3/4题");
+	$("#question3").hide();
+	$("#question4").slideDown("slow");
+});
+//处理选项框四
+$("#question4").children("#choice4-1").click(function(){
+	$("#question4").find('input:radio').eq(0).prop('checked',true);
+});
+$("#question4").children('#choice4-2').click(function(){
+	$("#question3").find('input:radio').eq(1).prop('checked',true);
+});
+$("#question4").children('#choice4-3').click(function(){
+	$("#question4").find('input:radio').eq(2).prop('checked',true);
+});
+$("#question4").children('#choice4-4').click(function(){
+	$("#question4").find('input:radio').eq(3).prop('checked',true);
+});
+$("#question4").children("button").click(function(){
+	$("#progressTop").attr("valuenow","100%");
+	$("#progressTop").css("width","100%");
+	$("#progressTop").text("100%");
+	$("#des").text("4/4题");
+	$("#question4").hide();
+	$("#scuess").show();
+});

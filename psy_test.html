@@ -1,0 +1,290 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>心理测评</title>
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/psy_test.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">心灵之窗</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbars">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">主页 <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="guide" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">导航</a>
+              <div class="dropdown-menu" aria-labelledby="guide">
+                <a class="dropdown-item" href="index.html">首页</a>
+                <a class="dropdown-item" href="#">文章</a>
+                <a class="dropdown-item" href="#">问答</a>
+                <a class="dropdown-item" href="#">找专家</a>
+                <a class="dropdown-item" href="#">测评</a>
+                <a class="dropdown-item" href="#">机构</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">手机版</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">登录</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">注册</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-md-0">
+            <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+</nav>
+    <div class="row wrap col-7">
+      <div class="col-9"  id="artview-1">
+       	<div id="test-head">
+			<p id="test-tit">EQ测评</p>
+			<div id="test-des">
+				您正在进行测试，已完成
+				<i id="des">0/4题</i>
+				<div class="progress">
+					<div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar"  aria-valuenow="0%" aria-valuemin="0" aria-valuemax="100" id="progressTop">0%</div>
+				</div>
+			</div>
+		</div>
+		<div id="test-body">
+			<form>
+				<div class="list-group" id="question1">
+					<p class="question">1.头痛</p>
+					<button type="button" class="list-group-item list-group-item-action " id="choice1">
+   						 <input type="radio" name="choice" tag="1">没有
+  					</button>
+ 					<button type="button" class="list-group-item list-group-item-action" id="choice2">
+						<input type="radio" name="choice" tag="2">轻度
+					</button>
+  					<button type="button" class="list-group-item list-group-item-action" id="choice3">
+						<input type="radio" name="choice" tag="3">中度
+					</button>
+ 					<button type="button" class="list-group-item list-group-item-action" id="choice4">
+						<input type="radio" name="choice" tag="4">严重
+					<button>
+				</div>
+				<div class="list-group" id="question2">
+					<P class="question">2.神经过敏，心中不踏实</P>
+					<button type="button" class="list-group-item list-group-item-action " id="choice2-1">
+   						 <input type="radio" name="choice" tag="1">没有
+  					</button>
+ 					<button type="button" class="list-group-item list-group-item-action" id="choice2-2">
+						<input type="radio" name="choice" tag="2">轻度
+					</button>
+  					<button type="button" class="list-group-item list-group-item-action" id="choice2-3">
+						<input type="radio" name="choice" tag="3">中度
+					</button>
+ 					<button type="button" class="list-group-item list-group-item-action" id="choice2-4">
+						<input type="radio" name="choice" tag="4">严重
+					</button>
+				</div>
+				<div class="list-group" id="question3">
+					<P class="question">3.头脑中有不必要的想法或字句盘旋</P>
+					<button type="button" class="list-group-item list-group-item-action " id="choice3-1">
+   						 <input type="radio" name="choice" tag="1">没有
+  					</button>
+ 					<button type="button" class="list-group-item list-group-item-action" id="choice3-2">
+						<input type="radio" name="choice" tag="2">轻度
+					</button>
+  					<button type="button" class="list-group-item list-group-item-action" id="choice3-3">
+						<input type="radio" name="choice" tag="3">中度
+					</button>
+ 					<button type="button" class="list-group-item list-group-item-action" id="choice3-4">
+						<input type="radio" name="choice" tag="4">严重
+					</button>
+				</div>
+				<div class="list-group" id="question4">
+					<p class="question">4.感到别人能控制您的思想</p>
+					<button type="button" class="list-group-item list-group-item-action " id="choice3-1">
+   						 <input type="radio" name="choice" tag="1">没有
+  					</button>
+ 					<button type="button" class="list-group-item list-group-item-action" id="choice3-2">
+						<input type="radio" name="choice" tag="2">轻度
+					</button>
+  					<button type="button" class="list-group-item list-group-item-action" id="choice3-3">
+						<input type="radio" name="choice" tag="3">中度
+					</button>
+ 					<button type="button" class="list-group-item list-group-item-action" id="choice3-4">
+						<input type="radio" name="choice" tag="4">严重
+					</button>
+				</div>
+				<div id="scuess">
+					<img src="img/duihao.jpg">
+					<br>
+					<h4>恭喜您完成测试!</h4>
+					<br><br><br><br><br><br>
+				</div>
+			</form>
+		</div>
+      </div>
+      <div class="col-3 wr">
+        <br>
+		<p class="h-tit-r"><a href="#">南昌心理专家</a></p>
+		<ul id="citydr-list">
+			<li>
+				<a href="#">
+				<img src="img/article_contex/py1.jpg" alt="">
+				<em>
+					<b>朱红宇</b>
+					<br>
+					南昌市&nbsp;&nbsp;青山湖区
+					<br>
+					擅长：抑郁症，孩子逆反
+				</em>
+				<br class="clearfix">
+				</a>
+			</li>
+			<li>
+				<a href="#">
+				<img src="img/人物头像/10.jpg" alt="">
+				<em>
+					<b>于修彬</b>
+					<br>
+					南昌市&nbsp;&nbsp;青山湖区
+					<br>
+					擅长：抑郁症，孩子逆反
+				</em>
+				<br class="clearfix">
+				</a>
+			</li>
+			<li>
+				<a href="#">
+				<img src="img/人物头像/4.jpg" alt="">
+				<em>
+					<b>池天宇</b>
+					<br>
+					南昌市&nbsp;&nbsp;青山湖区
+					<br>
+					擅长：抑郁症，孩子逆反
+				</em>
+				<br class="clearfix">
+				</a>
+			</li>
+			<li>
+				<a href="#">
+				<img src="img/人物头像/7.jpg" alt="">
+				<em>
+					<b>董华</b>
+					<br>
+					南昌市&nbsp;&nbsp;青山湖区
+					<br>
+					擅长：抑郁症，孩子逆反
+				</em>
+				<br class="clearfix">
+				</a>
+			</li>
+			<li>
+				<a href="#">
+				<img src="img/人物头像/5.jpg" alt="">
+				<em>
+					<b>于桂英</b>
+					<br>
+					南昌市&nbsp;&nbsp;青山湖区
+					<br>
+					擅长：抑郁症，孩子逆反
+				</em>
+				<br class="clearfix">
+				</a>
+			</li>
+			<li>
+				<a href="#">
+				<img src="img/人物头像/2.jpg" alt="">
+				<em>
+					<b>朱红宇</b>
+					<br>
+					南昌市&nbsp;&nbsp;青山湖区
+					<br>
+					擅长：抑郁症，孩子逆反
+				</em>
+				<br class="clearfix">
+				</a>
+			</li>
+		</ul>
+		<p class="h-tit-r"><a href="#">最热测试</a></p>
+		<ul class="hotcslist">
+			<li>
+				<a href="#">
+					<img src="img/article_contex/test1.jpg"  alt=""/>
+					<i>国际标准情商-EQ测试</i>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img src="img/article_contex/test2.jpg" alt=""/>
+					<i>瑞文标准智力测验（SPM）</i>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img src="img/article_contex/test3.jpg" alt=""/>
+					<i>国际标准智商（IQ）测试</i>
+				</a>
+			</li>
+		</ul>
+      </div>
+    </div>
+    <footer class="container py-5 col-7">
+      <div class="row">
+        <div class="col-6 col-md">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="d-block mb-2"><circle cx="12" cy="12" r="10"></circle><line x1="14.31" y1="8" x2="20.05" y2="17.94"></line><line x1="9.69" y1="8" x2="21.17" y2="8"></line><line x1="7.38" y1="12" x2="13.12" y2="2.06"></line><line x1="9.69" y1="16" x2="3.95" y2="6.06"></line><line x1="14.31" y1="16" x2="2.83" y2="16"></line><line x1="16.62" y1="12" x2="10.88" y2="21.94"></line></svg>
+          <small class="d-block mb-3 text-muted">&copy; 2017-2018</small>
+        </div>
+        <div class="col-6 col-md">
+          <h5>我是求助者</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">免费注册</a></li>
+            <li><a class="text-muted" href="#">登录</a></li>
+            <li><a class="text-muted" href="#">初次质询指南</a></li>
+            <li><a class="text-muted" href="#">更多常见问题</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>我是咨询师</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">咨询师入驻</a></li>
+            <li><a class="text-muted" href="#">咨询师国家职业标准</a></li>
+            <li><a class="text-muted" href="#">咨询师指南</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>关于心灵之窗</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">心灵之窗介绍</a></li>
+            <li><a class="text-muted" href="#">法律声明</a></li>
+            <li><a class="text-muted" href="#">联系我们</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>友情链接</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">亲亲宝贝网</a></li>
+            <li><a class="text-muted" href="#">心理测试网</a></li>
+            <li><a class="text-muted" href="#">爸妈在线心理网</a></li>
+            <li><a class="text-muted" href="#">江西自考网</a></li>
+          </ul>
+        </div>
+      </div>
+	</footer> 
+<!-- Javasrcript -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<!--<script src="js/bootstrap.bundle.min.js"></script> -->
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/psy_test.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>欢迎注册</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<script src="jQuery/jquery-3.3.1.js"></script>
+	<link href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet"> 
+	<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	
+	<script>
+		$(document).ready(function(){
+  			$("#btn1").click(function(){
+    			$("#bzt1").css("display","none");
+    			$("#bzt2").css("display","inline");
+    			$("#bzt3").css("display","none");
+
+    			$("#form1").css("display","none");
+    			$("#form2").css("display","inline");
+    			$("#form3").css("display","none");
+    			
+  			});
+
+
+
+  			$("#btn2").click(function(){
+    			$("#bzt1").css("display","inline");
+    			$("#bzt2").css("display","none");
+    			$("#bzt3").css("display","none");
+
+    			$("#form1").css("display","inline");
+    			$("#form2").css("display","none");
+    			$("#form3").css("display","none");
+  			});
+
+  			$("#btn3").click(function(){
+    			$("#bzt1").css("display","none");
+    			$("#bzt2").css("display","none");
+    			$("#bzt3").css("display","inline");
+
+    			$("#form1").css("display","none");
+    			$("#form2").css("display","none");
+    			$("#form3").css("display","inline");
+    			$("#form3").height(500);
+  			});
+		});
+
+	</script>
+
+	<style type="text/css">
+		#headDiv{
+			width: 100%;
+			height: 100px;
+			border-bottom: solid 1px #D8BFD8 ;
+		}
+		#h_d1{
+			margin-left:15%;
+			margin-top:15px;
+			
+			border-right: solid 1px #D8BFD8;
+			float: left;
+			width: 12%;
+			height: 60px;
+			
+		}
+		#h_d2{
+			color: #A9A9A9;
+			font-size: 43px;
+			margin-top: 15px;
+			margin-left: 20px;
+			float: left;
+		}
+		#h_p1{
+			color:green;
+			font-size: 40px;
+			font-family: "华文行楷";
+			padding-bottom: 0px;
+		}
+		#hh_d1{
+			font-size: 13px;
+			font-family:"华文行楷";
+			background-color: #778899;
+			color:#B0E0E6;
+			margin-top: 0px;
+			padding-top: 0px;
+			margin-right: 10px;
+		}
+		#h_d3{	
+			text-align: right;
+		}	
+		#loginBtn{
+			background-color: #32CD32;
+			border-color: #32CD32;
+			font-size:15px;
+			width: 80px;
+		}
+		#p1{
+			font-size: 15px;
+		}
+		#midDiv{
+			width: 100%;
+			border-bottom: solid 1px #D8BFD8;
+		}
+		#b1{
+			width: 200px;
+			height: 150px;
+		}
+		#b2{
+			width: 200px;
+			height: 150px;
+		}
+		#p2{
+			font-size: 25px;
+		}
+		#m_d1{
+			margin-left: 25%;
+			margin-right: 25%;
+			width:50%;
+		}
+		#m_d2{
+			margin-left: 35%;
+			margin-right: 35%;
+			width:30%;
+		}
+		#bzt2{
+			display: none;
+		}
+		#bzt3{
+			display: none;
+		}
+		#submitfg{
+			text-align: center;
+		}
+		#btn1{
+			width: 200px;
+			font-size: 25px;
+			background-color: #32CD32;
+			border-color: #32CD32;
+		}
+		#btn2{
+			width: 200px;
+			font-size: 25px;
+			background-color: #32CD32;
+			border-color: #32CD32;
+		}
+		#btn3{
+			width: 200px;
+			font-size: 25px;
+			background-color: #32CD32;
+			border-color: #32CD32;
+		}
+		#form2{
+			display: none;
+		}
+		#form3{
+			margin-top:50px;
+			display: none;
+			height: 500px;
+		}
+		#form3_div{
+			text-align: center;
+		}
+		#f1{
+			margin-top:30px;
+			float: left;
+		}
+		#f2{
+			margin-left: 30px;
+			margin-top:30px;
+			float: left;
+		}
+		#f3{
+			margin-left: 30px;
+			margin-top:30px;
+			float: left;
+		}
+		#f4{
+			margin-left: 30px;
+			margin-top:30px;
+			float: left;
+		}
+		#f5{
+			margin-left: 3px;
+			margin-top:30px;
+			float: left;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div id="headDiv">
+			<div id="h_d1">
+				<div id="h_p1">心灵之窗</div>
+				<div id="hh_d1">
+					打开心灵的窗户，让阳光进入
+				</div>			
+			</div>
+			<div id="h_d2">
+				新用户注册 
+			</div>
+			<div id="h_d3">
+			<br>
+				<b id="p1">已有账号?</b>&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" class="btn btn-primary" id="loginBtn">&nbsp;&nbsp;&nbsp;登录&nbsp;&nbsp;&nbsp;</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			</div>
+		</div>
+	</header>
+	<div id="midDiv">
+		<div id="m_d1">
+			<div class="container mt-5" id="bzt1">
+				<div class="row">
+					<div class="align-middle text-primary">
+						<span class="fa-stack fa-lg">
+							<i class="fa fa-circle fa-stack-2x"></i>
+							<span class="fa-stack-1x text-white">1</span>
+						</span>
+						<div class="d-inline-block">
+							<p class="mb-1 "><strong>基本信息</strong></p>
+						</div>
+					</div>
+					<span class="col border mx-3 my-auto"></span>
+					<div class="align-middle">
+						<span class="fa-stack fa-lg">
+							<i class="fa fa-circle-thin fa-stack-2x"></i>
+							<span class="fa-stack-1x ">2</span>
+						</span>
+						<div class="d-inline-block">
+							<p class="mb-1">完善信息</p>
+						</div>
+					</div>
+					<span class="col border mx-3 my-auto"></span>
+					<div class="align-middle">
+						<span class="fa-stack fa-lg">
+							<i class="fa fa-circle-thin fa-stack-2x"></i>
+							<span class="fa-stack-1x">3</span>
+						</span>
+						<div class="d-inline-block">
+							<p class="mb-1">注册成功</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container mt-5" id="bzt2"> 
+				<div class="row">
+					<div class="align-middle text-primary">
+						<span class="fa-stack fa-lg">
+							<i class="fa fa-circle-thin fa-stack-2x"></i>
+							<span class="fa fa-stack-1x fa-check"></span>
+						</span>
+						<div class="d-inline-block">
+							<p class="mb-1">基本信息</p>
+						</div>
+					</div>
+					<span class="col border border-primary mx-3 my-auto"></span>
+					<div class="align-middle text-primary">
+						<span class="fa-stack fa-lg">
+							<i class="fa fa-circle fa-stack-2x"></i>
+							<span class="fa-stack-1x text-white">2</span>
+						</span>
+						<div class="d-inline-block">
+							<p class="mb-1"><strong>完善信息</strong></p>
+						</div>
+					</div>
+					<span class="col border mx-3 my-auto"></span>
+					<div class="align-middle">
+						<span class="fa-stack fa-lg">
+							<i class="fa fa-circle-thin fa-stack-2x"></i>
+							<span class="fa-stack-1x">3</span>
+						</span>
+						<div class="d-inline-block">
+							<p class="mb-1">注册成功</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container mt-5" id="bzt3">
+				<div class="row">
+					<div class="align-middle text-primary">
+						<span class="fa-stack fa-lg">
+							<i class="fa fa-circle-thin fa-stack-2x"></i>
+							<span class="fa fa-stack-1x fa-check"></span>
+						</span>
+						<div class="d-inline-block">
+							<p class="mb-1">基本信息</p>
+						</div>
+					</div>
+					<span class="col border border-primary mx-3 my-auto"></span>
+					<div class="align-middle text-primary">
+						<span class="fa-stack fa-lg">
+							<i class="fa fa-circle-thin fa-stack-2x"></i>
+							<span class="fa fa-stack-1x fa-check"></span>
+						</span>
+						<div class="d-inline-block">
+							<p class="mb-1">完善信息</p>
+						</div>
+					</div>
+					<span class="col border border-primary mx-3 my-auto"></span>
+					<div class="align-middle text-primary">
+						<span class="fa-stack fa-lg">
+							<i class="fa fa-circle-thin fa-stack-2x"></i>
+							<span class="fa fa-stack-1x fa-check"></span>
+						</span>
+						<div class="d-inline-block">
+							<p class="mb-1"><strong>注册成功</strong></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="m_d2">
+			<div class="container">
+ 				<form >
+ 				<div id="form1">
+	    			<div class="form-group">
+	      				<label for="phone" >手机号:</label>
+	      				<input type="tel" class="form-control" id="phone" placeholder="11位数字">
+	    			</div>
+	    			<div class="form-group">
+	      				<label for="pwd">密码:</label>
+	      				<input type="password" class="form-control" id="pwd" placeholder="8-16位字符">
+	    			</div>
+	    			<div class="form-group">
+	      				<label for="pwd" >再次输入:</label>
+	      				<input type="password" class="form-control" id="pwd2" placeholder="和密码应一致">
+	    			</div>
+	    			<div class="form-group">
+		    			<div class="input-group input-group-lg" >
+							<input type="text" class="form-control" placeholder="手机验证码">
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							
+							<button type="button" class="btn btn-outline-secondary">获取验证码</button>
+						</div>
+					</div>
+					<div class="form-group" id="submitfg">
+	    				<button type="button" class="btn btn-primary" id="btn1">下一步</button>
+	    			</div>
+				</div>
+
+
+				<div id="form2">
+					<div class="form-group">
+	      				<label for="name">昵称:</label>
+	      				<input type="text" class="form-control" id="name" placeholder="在网站中显示">
+	    			</div>
+	    			<div class="form-group">
+	      				<label for="phone" >邮箱:</label>
+	      				<input type="email" class="form-control" id="email" placeholder="邮箱地址">
+	    			</div>
+	    			<div class="form-group">
+      					<label for="age">年龄:</label>
+      					<label class="inline"><select class="form-control" id="age">
+      						<option selected="selected">请选择年龄</option>
+        					<option>18岁以下</option>
+        					<option>18~25</option>
+					        <option>25~35</option>
+					        <option>35~45</option>
+					        <option>45~55</option>
+					        <option>55岁以上</option>
+     					 </select>
+     					</label>	
+					</div>
+	    			<div class="form-group">
+	      				<label for="sex" >性别:</label>
+	      				<label class="radio-inline"><input type="radio" name="sex">男</label>
+    					<label class="radio-inline"><input type="radio" name="sex">女</label>
+	    			</div>
+	    			
+					<div class="form-group">
+      					<label for="education">学历:</label>
+      					<label class="inline"><select class="form-control" id="education">
+      						<option selected="selected">请选择学历</option>
+        					<option>初中及以下</option>
+        					<option>高中</option>
+					        <option>专科</option>
+					        <option>本科</option>
+					        <option>硕士</option>
+					        <option>博士及以上</option>
+     					 </select>
+     					</label>
+     					<div class="form-group" id="submitfg">
+     						<button type="button" class="btn btn-primary" id="btn2">上一步</button>
+	    					<button type="button" class="btn btn-primary" id="btn3">下一步</button>
+	    				</div>
+					</div>
+				</div>
+					<div id="form3" text-align="center">
+						<div id="form3_div">
+							<img src="img/duihao.jpg">
+							<br>
+							<h4>恭喜您注册成功，成为心灵之窗的一员!</h4>
+							<br><br><br><br><br><br>
+						</div>
+					</div>
+  				</form>
+			</div>
+		</div>
+	</div>
+
+	<footer class="container py-5 col-7">
+      <div class="row">
+        <div class="col-12 col-md" id="f1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="d-block mb-2"><circle cx="12" cy="12" r="10"></circle><line x1="14.31" y1="8" x2="20.05" y2="17.94"></line><line x1="9.69" y1="8" x2="21.17" y2="8"></line><line x1="7.38" y1="12" x2="13.12" y2="2.06"></line><line x1="9.69" y1="16" x2="3.95" y2="6.06"></line><line x1="14.31" y1="16" x2="2.83" y2="16"></line><line x1="16.62" y1="12" x2="10.88" y2="21.94"></line></svg>
+          <small class="d-block mb-3 text-muted">&copy; 2017-2018</small>
+        </div>
+        <div class="col-6 col-md" id="f2">
+          <h5>我是求助者</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">免费注册</a></li>
+            <li><a class="text-muted" href="#">登录</a></li>
+            <li><a class="text-muted" href="#">初次质询指南</a></li>
+            <li><a class="text-muted" href="#">更多常见问题</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md" id="f3">
+          <h5>我是咨询师</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">咨询师入驻</a></li>
+            <li><a class="text-muted" href="#">咨询师国家职业标准</a></li>
+            <li><a class="text-muted" href="#">咨询师指南</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md" id="f4">
+          <h5>关于心灵之窗</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">心灵之窗介绍</a></li>
+            <li><a class="text-muted" href="#">法律声明</a></li>
+            <li><a class="text-muted" href="#">联系我们</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md" id="f5"> 
+          <h5>友情链接</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">亲亲宝贝网</a></li>
+            <li><a class="text-muted" href="#">心理测试网</a></li>
+            <li><a class="text-muted" href="#">爸妈在线心理网</a></li>
+            <li><a class="text-muted" href="#">江西自考网</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer> 
+</body>
+</html>

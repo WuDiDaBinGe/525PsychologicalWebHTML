@@ -1,0 +1,876 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<title>心理网站</title>
+<meta name="viewport" content="width=device-width, inital-scale=1,shrink-to-fit=no">
+<link href="css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+<link href="css/index.css" type="text/css" rel="stylesheet"/>
+
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">心灵之窗</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbars">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">主页 <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="" id="guide" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">导航</a>
+              <div class="dropdown-menu" aria-labelledby="guide">
+                <a class="dropdown-item" href="index.html">首页</a>
+                <a class="dropdown-item" href="article.html">文章</a>
+                <a class="dropdown-item" href="#">问答</a>
+			    <a class="dropdown-item" href="#">找专家</a>
+                <a class="dropdown-item" href="PsyTest.html">测评</a>
+              </div>
+            </li>
+			 <li class="nav-item">
+              <a class="nav-link" href="#" id="nav_phone">手机版</a>
+			  <div class="weixin_code">
+				  <img src="img/mycode.png" alt="">
+			  </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">登录</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="register_choose.html">注册</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-md-0">
+            <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+			<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+</nav>
+<div class="container col-7">
+	<div class="row align-items-center">
+        <!-- 图片轮播 -->
+        <div id="dispictures" class="carousel slide col-9" data-ride="carousel">
+         <!-- 指示符 -->
+          <ul class="carousel-indicators">
+            <li data-target="#dispictures" data-slide-to="0" class="active"></li>
+            <li data-target="#dispictures" data-slide-to="1"></li>
+            <li data-target="#dispictures" data-slide-to="2"></li>
+          </ul>
+         
+          <!-- 轮播 图片-->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/pptthree.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="images/pptone.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="images/ppttwo.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+         
+          <!-- 左右切换按钮 -->
+          <a class="carousel-control-prev" href="#dispictures" data-slide="prev" role="button">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#dispictures" data-slide="next" role="button">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+        <!-- 图片轮播END -->
+        
+        <!-- 图片轮播右侧 -->
+        <div class="col-3 py-5" id="courseRight">
+        	<p>287933&nbsp;名专家汇聚这<br><br>
+            <em>帮您解答心理疑问</em><br>
+            <small>已解答<i>1293792</i>个心理问题</small>
+            <br><br>
+            <input type="button" value="立即咨询" id="btn_query"/>
+            </p>
+        </div>
+	</div>
+</div>
+<p class="pd"></p>
+<!--  card 排版 -->
+<div class="container col-7">
+
+  <div class="row align-items-center">
+    <div class="col-12">
+      <div class="card">
+      	<div class="card-header"><h3>专家推荐</h3></div>
+        <div class="card-body">
+           <div class="row">
+        	  <ul id="dr-list" class="col-9">
+            	<li><a><img src="img/人物头像/2.jpg" alt=""><br>熊锦林</a></li>
+                <li><a><img src="img/人物头像/1.jpg" alt=""><br>何以琛</a></li>
+                <li><a><img src="img/人物头像/3.jpg" alt=""><br>周杰伦</a></li>
+                <li><a><img src="img/人物头像/4.jpg" alt=""><br>张蓝心</a></li>
+                <li><a><img src="img/人物头像/5.jpg" alt=""><br>于修彬</a></li>
+                <li><a><img src="img/人物头像/6.jpg" alt=""><br>于修彬</a></li>
+                <li><a><img src="img/人物头像/7.jpg" alt=""><br>于修彬</a></li>
+                <li><a><img src="img/人物头像/8.jpg" alt=""><br>于修彬</a></li>
+                <li><a><img src="img/人物头像/9.jpg" alt=""><br>于修彬</a></li>
+                <li><a><img src="img/人物头像/10.jpg" alt=""><br>于修彬</a></li>
+                <li><a><img src="img/人物头像/3.jpg" alt=""><br>于修彬</a></li>
+                <li><a><img src="img/人物头像/6.jpg" alt=""><br>于修彬</a></li>
+              </ul>
+              <div class="col-3">
+              	<h4 class="vectorBorder">咨询点评</h4>
+            	<div class="media text-black-50">
+              		<p class="media-body small lh-125 border-bottom border-gray">
+               		<strong class="d-block text-gray-dark">@username</strong>
+                	 <b>我的忧虑解决了，谢谢</b>
+              		</p>
+            	</div>
+                <div class="media text-muted">
+              		<p class="media-body small lh-125 border-bottom border-gray">
+               		<strong class="d-block text-gray-dark">@username</strong>
+                	 非常有用
+              		</p>
+            	</div>
+                <div class="media text-muted">
+              		<p class="media-body small lh-125 border-bottom border-gray">
+               		<strong class="d-block text-gray-dark">@username</strong>
+                	 更热爱学习了，开解的很好
+              		</p>
+            	</div>
+                <div class="media text-muted">
+              		<p class="media-body small lh-125 border-bottom border-gray">
+               		<strong class="d-block text-gray-dark">@username</strong>
+                	 我的忧虑解决了，谢谢
+              		</p>
+            	</div>
+              </div>
+           </div>
+        </div>
+        <div  class="card-footer align-self-center"> 心理机构推荐>> </div>
+      </div>
+    </div>
+  </div>
+  <p class="pd"></p>
+  
+  <div class="row align-items-center">
+    <div class="col">
+      <div class="card">
+      	<div class="card-header"><h3>心理文章</h3></div>
+        <div class="card-body">
+        	<!-- Nav Pills -->
+            <ul class="nav nav-pills" role="tablist">
+            	<li class="nav-item">
+                	<a class="nav-link active" data-toggle="tab" href="#article_all">全部</a>
+                </li>
+                <li class="nav-item">
+                	<a class="nav-link" data-toggle="tab" href="#article_wedding">婚恋</a>
+                </li>
+                <li class="nav-item">
+                	<a class="nav-link" data-toggle="tab" href="#article_health">健康</a>
+                </li>
+                <li class="nav-item">
+                	<a class="nav-link" data-toggle="tab" href="#article_sexpsy">性心理</a>
+                </li>
+                <li class="nav-item">
+                	<a class="nav-link" data-toggle="tab" href="#article_workplace">职场</a>
+                </li>
+                <li class="nav-item">
+                	<a class="nav-link" data-toggle="tab" href="#article_education">教育</a>
+                </li> 
+                <li class="nav-item">
+                	<a class="nav-link" data-toggle="tab" href="#article_science">科普</a>
+                </li>
+            </ul>
+           	<!-- Tab panes -->
+            <div class="tab-content">
+            	<div id="article_all" class="tab-pane active">
+					<ul class="artlist">
+       					<li class="item">
+          					 <a class="coverImg"><img src="img/article_title.png" class="img-fluid" alt=""></a>
+           						<ul>
+             						<li class="tit"><a href="#"> 学会拒绝以后我的日子多了</a></li>
+             						<li class="des">
+                						<i>我爱心理网</i>
+                						<i>阅读900</i>
+             						</li>
+           						</ul>
+         				</li>
+                        <li class="item">
+          					 <a class="coverImg"><img src="img/article/3.png" class="img-fluid"/></a>
+           						<ul>
+             						<li class="tit"><a href="#"> 学会拒绝以后我的日子好多了</a></li>
+             						<li class="des">
+                						<i>我爱心理网</i>
+                						<i>阅读900</i>
+             						</li>
+           						</ul>
+         				</li>
+                        <li class="item">
+          					 <a class="coverImg"><img src="img/article/4.png" class="img-fluid"/></a>
+           						<ul>
+             						<li class="tit"><a href="#"> 学会拒绝以后我的日子好多了</a></li>
+             						<li class="des">
+                						<i>我爱心理网</i>
+                						<i>阅读900</i>
+             						</li>
+           						</ul>
+         				</li>
+                        <li class="item">
+          					 <a class="coverImg"><img src="img/article/5.png" class="img-fluid"/></a>
+           						<ul>
+             						<li class="tit"><a href="#"> 学会拒绝以后我的日子好多了</a></li>
+             						<li class="des">
+                						<i>我爱心理网</i>
+                						<i>阅读900</i>
+             						</li>
+           						</ul>
+         				</li>
+                        <li class="item">
+          					 <a class="coverImg"><img src="img/article/6.png" class="img-fluid"/></a>
+           						<ul>
+             						<li class="tit"><a href="#"> 学会拒绝以后我的日子好多了</a></li>
+             						<li class="des">
+                						<i>我爱心理网</i>
+                						<i>阅读900</i>
+             						</li>
+           						</ul>
+         				</li>
+                        <li class="item">
+          					 <a class="coverImg"><img src="img/article/1.png" class="img-fluid"/></a>
+           						<ul>
+             						<li class="tit"><a href="#"> 学会拒绝以后我的日子好多了</a></li>
+             						<li class="des">
+                						<i>我爱心理网</i>
+                						<i>阅读900</i>
+             						</li>
+           						</ul>
+         				</li>
+      				</ul>                   
+                    <br class="clear">
+                </div>
+                
+                <div id="article_wedding" class="tab-pane fade">
+                	<ul class="artlist">
+       					<li class="item">
+          					 <a class="coverImg"><img src="img/article_title.png" class="img-fluid" alt=""></a>
+           						<ul>
+             						<li class="tit"><a href="#"> 学会拒绝以后我的日子多了</a></li>
+             						<li class="des">
+                						<i>我爱心理网</i>
+                						<i>阅读900</i>
+             						</li>
+           						</ul>
+         				</li>
+                        <li class="item">
+          					 <a class="coverImg"><img src="img/article_title.png" class="img-fluid" alt=""></a>
+           						<ul>
+             						<li class="tit"><a href="#"> 学会拒绝以后我的日子好多了</a></li>
+             						<li class="des">
+                						<i>我爱心理网</i>
+                						<i>阅读900</i>
+             						</li>
+           						</ul>
+         				</li>
+                        <li class="item">
+          					 <a class="coverImg"><img src="img/article_title.png" class="img-fluid" alt=""></a>
+           						<ul>
+             						<li class="tit"><a href="#"> 学会拒绝以后我的日子好多了</a></li>
+             						<li class="des">
+                						<i>我爱心理网</i>
+                						<i>阅读900</i>
+             						</li>
+           						</ul>
+         				</li>
+                        <li class="item">
+          					 <a class="coverImg"><img src="img/article_title.png" class="img-fluid" alt=""></a>
+           						<ul>
+             						<li class="tit"><a href="#"> 学会拒绝以后我的日子好多了</a></li>
+             						<li class="des">
+                						<i>我爱心理网</i>
+                						<i>阅读900</i>
+             						</li>
+           						</ul>
+         				</li>
+                        <li class="item">
+          					 <a class="coverImg"><img src="img/article_title.png" class="img-fluid" alt=""></a>
+           						<ul>
+             						<li class="tit"><a href="#"> 学会拒绝以后我的日子好多了</a></li>
+             						<li class="des">
+                						<i>我爱心理网</i>
+                						<i>阅读900</i>
+             						</li>
+           						</ul>
+         				</li>
+                        <li class="item">
+          					 <a class="coverImg"><img src="img/article_title.png" class="img-fluid" alt=""></a>
+           						<ul>
+             						<li class="tit"><a href="#"> 学会拒绝以后我的日子好多了</a></li>
+             						<li class="des">
+                						<i>我爱心理网</i>
+                						<i>阅读900</i>
+             						</li>
+           						</ul>
+         				</li>
+      				</ul>                   
+                    <br class="clear">
+                </div>
+                
+                
+                <div id="article_health" class="tab-pane fade">
+                	<ul class="artlist">
+       					<li class="item">
+          					 <a class="coverImg"><img src="img/article_title.png" class="img-fluid" alt=""></a>
+           						<ul>
+             						<li class="tit"><a href="#"> 学会拒绝以后我的日子多了</a></li>
+             						<li class="des">
+                						<i>我爱心理网</i>
+                						<i>阅读900</i>
+             						</li>
+           						</ul>
+         				</li>
+                        <li class="item">
+          					 <a class="coverImg"><img src="img/article_title.png" class="img-fluid"/></a>
+           						<ul>
+             						<li class="tit"><a href="#"> 学会拒绝以后我的日子好多了</a></li>
+             						<li class="des">
+                						<i>我爱心理网</i>
+                						<i>阅读900</i>
+             						</li>
+           						</ul>
+         				</li>
+                        <li class="item">
+          					 <a class="coverImg"><img src="img/article_title.png" class="img-fluid"/></a>
+           						<ul>
+             						<li class="tit"><a href="#"> 学会拒绝以后我的日子好多了</a></li>
+             						<li class="des">
+                						<i>我爱心理网</i>
+                						<i>阅读900</i>
+             						</li>
+           						</ul>
+         				</li>
+                        <li class="item">
+          					 <a class="coverImg"><img src="img/article_title.png" class="img-fluid"/></a>
+           						<ul>
+             						<li class="tit"><a href="#"> 学会拒绝以后我的日子好多了</a></li>
+             						<li class="des">
+                						<i>我爱心理网</i>
+                						<i>阅读900</i>
+             						</li>
+           						</ul>
+         				</li>
+                        <li class="item">
+          					 <a class="coverImg"><img src="img/article_title.png" class="img-fluid"/></a>
+           						<ul>
+             						<li class="tit"><a href="#"> 学会拒绝以后我的日子好多了</a></li>
+             						<li class="des">
+                						<i>我爱心理网</i>
+                						<i>阅读900</i>
+             						</li>
+           						</ul>
+         				</li>
+                        <li class="item">
+          					 <a class="coverImg"><img src="img/article_title.png" class="img-fluid"/></a>
+           						<ul>
+             						<li class="tit"><a href="#"> 学会拒绝以后我的日子好多了</a></li>
+             						<li class="des">
+                						<i>我爱心理网</i>
+                						<i>阅读900</i>
+             						</li>
+           						</ul>
+         				</li>
+      				</ul>                   
+                    <br class="clear">
+                </div> 
+                <div id="article_sexpsy" class="tab-pane fade">
+                	<ul class="artlist">
+       					<li class="item">
+          					 <a class="coverImg"><img src="img/article_title.png" class="img-fluid"/></a>
+           						<ul>
+             						<li class="tit"><a href="#"> 学会拒绝以后我的日子多了</a></li>
+             						<li class="des">
+                						<i>我爱心理网</i>
+                						<i>阅读900</i>
+             						</li>
+           						</ul>
+         				</li>
+                        <li class="item">
+          					 <a class="coverImg"><img src="img/article_title.png" class="img-fluid"/></a>
+           						<ul>
+             						<li class="tit"><a href="#"> 学会拒绝以后我的日子好多了</a></li>
+             						<li class="des">
+                						<i>我爱心理网</i>
+                						<i>阅读900</i>
+             						</li>
+           						</ul>
+         				</li>
+                        <li class="item">
+          					 <a class="coverImg"><img src="img/article_title.png" class="img-fluid"/></a>
+           						<ul>
+             						<li class="tit"><a href="#"> 学会拒绝以后我的日子好多了</a></li>
+             						<li class="des">
+                						<i>我爱心理网</i>
+                						<i>阅读900</i>
+             						</li>
+           						</ul>
+         				</li>
+                        <li class="item">
+          					 <a class="coverImg"><img src="img/article_title.png" class="img-fluid"/></a>
+           						<ul>
+             						<li class="tit"><a href="#"> 学会拒绝以后我的日子好多了</a></li>
+             						<li class="des">
+                						<i>我爱心理网</i>
+                						<i>阅读900</i>
+             						</li>
+           						</ul>
+         				</li>
+                        <li class="item">
+          					 <a class="coverImg"><img src="img/article_title.png" class="img-fluid"/></a>
+           						<ul>
+             						<li class="tit"><a href="#"> 学会拒绝以后我的日子好多了</a></li>
+             						<li class="des">
+                						<i>我爱心理网</i>
+                						<i>阅读900</i>
+             						</li>
+           						</ul>
+         				</li>
+                        <li class="item">
+          					 <a class="coverImg"><img src="img/article_title.png" class="img-fluid"/></a>
+           						<ul>
+             						<li class="tit"><a href="#"> 学会拒绝以后我的日子好多了</a></li>
+             						<li class="des">
+                						<i>我爱心理网</i>
+                						<i>阅读900</i>
+             						</li>
+           						</ul>
+         				</li>
+      				</ul>                   
+                    <br class="clear">
+                </div>
+                <div id="article_workplace" class="tab-pane fade">
+                	<ul class="artlist">
+       					<li class="item">
+          					 <a class="coverImg"><img src="img/article_title.png" class="img-fluid"/></a>
+           						<ul>
+             						<li class="tit"><a href="#"> 学会拒绝以后我的日子多了</a></li>
+             						<li class="des">
+                						<i>我爱心理网</i>
+                						<i>阅读900</i>
+             						</li>
+           						</ul>
+         				</li>
+                        <li class="item">
+          					 <a class="coverImg"><img src="img/article_title.png" class="img-fluid"/></a>
+           						<ul>
+             						<li class="tit"><a href="#"> 学会拒绝以后我的日子好多了</a></li>
+             						<li class="des">
+                						<i>我爱心理网</i>
+                						<i>阅读900</i>
+             						</li>
+           						</ul>
+         				</li>
+                        <li class="item">
+          					 <a class="coverImg"><img src="img/article_title.png" class="img-fluid"/></a>
+           						<ul>
+             						<li class="tit"><a href="#"> 学会拒绝以后我的日子好多了</a></li>
+             						<li class="des">
+                						<i>我爱心理网</i>
+                						<i>阅读900</i>
+             						</li>
+           						</ul>
+         				</li>
+                        <li class="item">
+          					 <a class="coverImg"><img src="img/article_title.png" class="img-fluid" alt=""/></a>
+           						<ul>
+             						<li class="tit"><a href="#"> 学会拒绝以后我的日子好多了</a></li>
+             						<li class="des">
+                						<i>我爱心理网</i>
+                						<i>阅读900</i>
+             						</li>
+           						</ul>
+         				</li>
+                        <li class="item">
+          					 <a class="coverImg"><img src="img/article_title.png" class="img-fluid"/></a>
+           						<ul>
+             						<li class="tit"><a href="#"> 学会拒绝以后我的日子好多了</a></li>
+             						<li class="des">
+                						<i>我爱心理网</i>
+                						<i>阅读900</i>
+             						</li>
+           						</ul>
+         				</li>
+                        <li class="item">
+          					 <a class="coverImg"><img src="img/article_title.png" class="img-fluid"/></a>
+           						<ul>
+             						<li class="tit"><a href="#"> 学会拒绝以后我的日子好多了</a></li>
+             						<li class="des">
+                						<i>我爱心理网</i>
+                						<i>阅读900</i>
+             						</li>
+           						</ul>
+         				</li>
+      				</ul>                   
+                    <br class="clear">
+                </div>
+                <div id="article_education" class="tab-pane fade">
+                	<ul class="artlist">
+       					<li class="item">
+          					 <a class="coverImg"><img src="img/article_title.png" class="img-fluid"/></a>
+           						<ul>
+             						<li class="tit"><a href="#"> 学会拒绝以后我的日子多了</a></li>
+             						<li class="des">
+                						<i>我爱心理网</i>
+                						<i>阅读900</i>
+             						</li>
+           						</ul>
+         				</li>
+                        <li class="item">
+          					 <a class="coverImg"><img src="img/article_title.png" class="img-fluid"/></a>
+           						<ul>
+             						<li class="tit"><a href="#"> 学会拒绝以后我的日子好多了</a></li>
+             						<li class="des">
+                						<i>我爱心理网</i>
+                						<i>阅读900</i>
+             						</li>
+           						</ul>
+         				</li>
+                        <li class="item">
+          					 <a class="coverImg"><img src="img/article_title.png" class="img-fluid"/></a>
+           						<ul>
+             						<li class="tit"><a href="#"> 学会拒绝以后我的日子好多了</a></li>
+             						<li class="des">
+                						<i>我爱心理网</i>
+                						<i>阅读900</i>
+             						</li>
+           						</ul>
+         				</li>
+                        <li class="item">
+          					 <a class="coverImg"><img src="img/article_title.png" class="img-fluid"/></a>
+           						<ul>
+             						<li class="tit"><a href="#"> 学会拒绝以后我的日子好多了</a></li>
+             						<li class="des">
+                						<i>我爱心理网</i>
+                						<i>阅读900</i>
+             						</li>
+           						</ul>
+         				</li>
+                        <li class="item">
+          					 <a class="coverImg"><img src="img/article_title.png" class="img-fluid"/></a>
+           						<ul>
+             						<li class="tit"><a href="#"> 学会拒绝以后我的日子好多了</a></li>
+             						<li class="des">
+                						<i>我爱心理网</i>
+                						<i>阅读900</i>
+             						</li>
+           						</ul>
+         				</li>
+                        <li class="item">
+          					 <a class="coverImg"><img src="img/article_title.png" class="img-fluid"/></a>
+           						<ul>
+             						<li class="tit"><a href="#"> 学会拒绝以后我的日子好多了</a></li>
+             						<li class="des">
+                						<i>我爱心理网</i>
+                						<i>阅读900</i>
+             						</li>
+           						</ul>
+         				</li>
+      				</ul>                   
+                    <br class="clear">
+                </div>
+                <div id="article_science" class="tab-pane fade">
+                	<ul class="artlist">
+       					<li class="item">
+          					 <a class="coverImg"><img src="img/article_title.png" class="img-fluid"/></a>
+           						<ul>
+             						<li class="tit"><a href="#"> 学会拒绝以后我的日子多了</a></li>
+             						<li class="des">
+                						<i>我爱心理网</i>
+                						<i>阅读900</i>
+             						</li>
+           						</ul>
+         				</li>
+                        <li class="item">
+          					 <a class="coverImg"><img src="img/article_title.png" class="img-fluid" alt=""></a>
+           						<ul>
+             						<li class="tit"><a href="#"> 学会拒绝以后我的日子好多了</a></li>
+             						<li class="des">
+                						<i>我爱心理网</i>
+                						<i>阅读900</i>
+             						</li>
+           						</ul>
+         				</li>
+                        <li class="item">
+          					 <a class="coverImg"><img src="img/article_title.png" class="img-fluid"/></a>
+           						<ul>
+             						<li class="tit"><a href="#"> 学会拒绝以后我的日子好多了</a></li>
+             						<li class="des">
+                						<i>我爱心理网</i>
+                						<i>阅读900</i>
+             						</li>
+           						</ul>
+         				</li>
+                        <li class="item">
+          					 <a class="coverImg"><img src="img/article_title.png" class="img-fluid"/></a>
+           						<ul>
+             						<li class="tit"><a href="#"> 学会拒绝以后我的日子好多了</a></li>
+             						<li class="des">
+                						<i>我爱心理网</i>
+                						<i>阅读900</i>
+             						</li>
+           						</ul>
+         				</li>
+                        <li class="item">
+          					 <a class="coverImg"><img src="img/article_title.png" class="img-fluid"/></a>
+           						<ul>
+             						<li class="tit"><a href="#"> 学会拒绝以后我的日子好多了</a></li>
+             						<li class="des">
+                						<i>我爱心理网</i>
+                						<i>阅读900</i>
+             						</li>
+           						</ul>
+         				</li>
+                        <li class="item">
+          					 <a class="coverImg"><img src="img/article_title.png" class="img-fluid"/></a>
+           						<ul>
+             						<li class="tit"><a href="#"> 学会拒绝以后我的日子好多了</a></li>
+             						<li class="des">
+                						<i>我爱心理网</i>
+                						<i>阅读900</i>
+             						</li>
+           						</ul>
+         				</li>
+      				</ul>                   
+                    <br class="clear">
+                </div>
+            </div>
+		  </div>
+        <div  class="card-footer align-self-center"><a href="article.html">更多文章>></a></div>
+      </div>
+    </div>
+  </div>
+  
+  <p class="pd"></p>
+  <div class="row align-items-center">
+    <div class="col">
+      <div class="card">
+      	<div class="card-header"><h3>专业测评</h3></div>
+        <div class="card-body">
+        	<div class="card-deck">
+            	<div class="card">
+                	<img class="card-img-top" alt="Card Image" src="img/test/3.png"/>
+                    <div class="card-body">
+                    	<h6 class="card-title"><strong>综合心理测评（SCL-90）</strong></h6>
+                        <p class="card-text"><small class="text-muted">123819人测过</small></p>
+                    </div>     
+                </div>
+                <div class="card">
+                	<img class="card-img-top" alt="Card Image" src="img/test/2.png"/>
+                    <div class="card-body">
+                    	<h6 class="card-title"><strong>抑郁症测试专业量表</strong></h6>
+                        <p class="card-text"></p>
+                        <p class="card-text"><small class="text-muted">123819人测过</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                	<img class="card-img-top" alt="Card Image" src="img/test/1.png"/>
+                    <div class="card-body">
+                    	<h6 class="card-title"><strong>国际标准情商EQ</strong></h6>
+                        <p class="card-text"></p>
+                        <p class="card-text"><small class="text-muted">123819人测过</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                	<img class="card-img-top" alt="Card Image" src="img/test/4.png"/>
+                    <div class="card-body">
+                    	<h6 class="card-title"><strong>国际标准情商EQ</strong></h6>
+                        <p class="card-text"></p>
+                        <p class="card-text"><small class="text-muted">123819人测过</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div  class="card-footer">更多测评>></div>
+      </div>
+    </div>
+  </div>
+  <p class="pd"></p>
+  
+  <div class="row align-items-center">
+    <div class="col">
+      <div class="card">
+      	<div class="card-header"><h3>问答求助</h3></div>
+        <div class="card-body">
+        	<div class="row">
+        	<ul id="clistpublic" class="col-8">
+            	<li>
+                	<span><a class="tit">找不到女朋友怎么办？</a>
+                    <i>5分钟前</i>
+                    <br class="clear">
+                    </span>
+                    <em>"已获"<b>9</b>"专家解答"</em>
+                    
+                </li>
+                <li>
+                	<span><a class="tit">玩游戏玩不好怎么办？</a>
+                    <i>6分钟前</i>
+                    <br class="clear">
+                    </span>
+                    <em>"已获"<b>9</b>"专家解答"</em>
+                    
+                </li>
+                <li>
+                	<span><a class="tit">不想学习怎么办？</a>
+                    <i>12分钟前</i>
+                    <br class="clear">
+                    </span>
+                    <em>"已获"<b>9</b>"专家解答"</em>
+                    
+                </li>
+                <li>
+                	<span><a class="tit">找不到男朋友怎么办？</a>
+                    <i>2分钟前</i>
+                    <br class="clear">
+                    </span>
+                    <em>"已获"<b>9</b>"专家解答"</em>
+                </li>
+                <li>
+                	<span><a class="tit">找不到女朋友怎么办？</a>
+                    <i>5分钟前</i>
+                    <br class="clear">
+                    </span>
+                    <em>"已获"<b>9</b>"专家解答"</em>
+                </li>
+                <li class="more">
+                	<a href="#">更多问答 &nbsp;&nbsp;></a>
+                </li>
+            </ul>
+            <div class="col-4">
+            	<h5 class="vectorBorder">心理专家推荐</h5>
+                <ul id="citydrList">
+                	<li>
+                    	<img src="img/人物头像/3.jpg"/>
+                        <b>于修彬</b>
+                        <small>
+                        	
+                           	<br>
+                            南昌市 &nbsp; 青山湖区
+                            <br>
+                            擅长：压力、学习、交友
+                        </small>
+                    </li>
+                    <li>
+                    	<img src="img/人物头像/4.jpg"/>
+                        <b>于修彬</b>
+                        <small>
+                        	
+                           	<br>
+                            南昌市 &nbsp; 青山湖区
+                            <br>
+                            擅长：压力、学习、交友
+                        </small>
+                    </li>
+                    <li>
+                    	<img src="img/人物头像/10.jpg"/>
+                        <b>于修彬</b>
+                        <small>
+                        	
+                           	<br>
+                            南昌市 &nbsp; 青山湖区
+                            <br>
+                            擅长：压力、学习、交友
+                        </small>
+                    </li>
+                </ul>
+            </div>
+          	</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<p class="pd"></p> 
+<a id="btn_top" title="回到顶部"></a>
+<a id="btn_ask" type="button" title="询问专家" data-toggle="modal" data-target="#askModal">在线询问专家</a>
+<!-- 在线问答模态框 -->
+<div class="modal fade" id="askModal" tabindex="-1" role="dialog" aria-labelledby="askModal" aria-hidden="true">
+  	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">在线提问</h5>
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+			</div>
+			<div class="modal-body">
+				<form>
+					<div class="form-group">
+						<label for="comment">输入问题：</label>
+						<textarea class="form-control" rows="5" id="comment">
+						</textarea>
+					</div>
+				</form>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+        <button type="button" class="btn btn-primary">提问</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- 底部 -->
+<footer class="container py-5 col-7">
+      <div class="row">
+        <div class="col-6 col-md">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="d-block mb-2"><circle cx="12" cy="12" r="10"></circle><line x1="14.31" y1="8" x2="20.05" y2="17.94"></line><line x1="9.69" y1="8" x2="21.17" y2="8"></line><line x1="7.38" y1="12" x2="13.12" y2="2.06"></line><line x1="9.69" y1="16" x2="3.95" y2="6.06"></line><line x1="14.31" y1="16" x2="2.83" y2="16"></line><line x1="16.62" y1="12" x2="10.88" y2="21.94"></line></svg>
+          <small class="d-block mb-3 text-muted">&copy; 2017-2018</small>
+        </div>
+        <div class="col-6 col-md">
+          <h5>我是求助者</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">免费注册</a></li>
+            <li><a class="text-muted" href="#">登录</a></li>
+            <li><a class="text-muted" href="#">初次质询指南</a></li>
+            <li><a class="text-muted" href="#">更多常见问题</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>我是咨询师</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">咨询师入驻</a></li>
+            <li><a class="text-muted" href="#">咨询师国家职业标准</a></li>
+            <li><a class="text-muted" href="#">咨询师指南</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>关于心灵之窗</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">心灵之窗介绍</a></li>
+            <li><a class="text-muted" href="#">法律声明</a></li>
+            <li><a class="text-muted" href="#">联系我们</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>友情链接</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">亲亲宝贝网</a></li>
+            <li><a class="text-muted" href="#">心理测试网</a></li>
+            <li><a class="text-muted" href="#">爸妈在线心理网</a></li>
+            <li><a class="text-muted" href="#">江西自考网</a></li>
+          </ul>
+        </div>
+      </div>
+</footer> 
+<!-- Javasrcript -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<!--<script src="js/bootstrap.bundle.min.js"></script> -->
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/backToTop.js"></script>
+<script src="js/weixin_code.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+.wrap {
+	margin: 0 auto;
+	height: auto;
+}
+/*左边测评*/
+#artview-1{
+	display: block;
+	float: left;
+}
+/*右侧导航栏列表*/
+#citydr-list{
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 15px;
+	padding-left: 0px;
+}
+#citydr-list li{
+	display: block;
+	border-bottom: dotted 1px #E5E5E5;
+	clear: both;
+	height: 100px;
+	margin-top: 5px;
+}
+#citydr-list li a {
+    display: block;
+    color: #737373;
+    width: 200px;
+    height: auto;
+    padding: 4px 0 4px 0;
+}
+#citydr-list li a img {
+    width: 50px;
+    height: 50px;
+    border: solid 1px #eee;
+    border-radius: 100px;
+    float: left;
+    overflow: hidden;
+    background: #fff;
+	display: block;
+}
+#citydr-list li a em {
+    float: left;
+    font-style: normal;
+    display: block;
+    overflow: hidden;
+    width: 75%;
+    height: auto;
+    font-size: 12px;
+    font-family: 宋体;
+    line-height: 20px;
+    color: #C6C6C6;
+}
+#citydr-list li a em b {
+    font-size: 17px;
+    font-style: normal;
+    color: #414141;
+    font-family: 微软雅黑;
+    font-weight: normal;
+    line-height: 30px;
+}
+/*右侧最热测评*/
+.hotcslist{
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	padding-left: 0px;
+}
+.hotcslist li{
+	display: block;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.hotcslist li a img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.hotcslist li a i{
+	position: relative;
+    display: block;
+    background: #000;
+    color: #fff;
+    font-size: .8em;
+    padding: .8em;
+    width: auto;
+    top: -3.1em;
+    font-style: normal;
+    text-align: right;
+	/*设置渐变颜色*/
+	background: linear-gradient(bottom,rgba(0,0,0,0.65098) 4%,rgba(0,0,0,0) 99%);
+    background: -o-linear-gradient(bottom,rgba(0,0,0,0.65098) 4%,rgba(0,0,0,0) 99%);
+    background: -ms-linear-gradient(bottom,rgba(0,0,0,0.65098) 4%,rgba(0,0,0,0) 99%);
+    background: -moz-linear-gradient(bottom,rgba(0,0,0,0.65098) 4%,rgba(0,0,0,0) 99%);
+    background: -webkit-linear-gradient(bottom,rgba(0,0,0,0.65098) 4%,rgba(0,0,0,0) 99%);	
+}
+
